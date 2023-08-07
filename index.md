@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ghrepos
 ---
 
 # Hey, here's useful stuff to do
