@@ -7,6 +7,7 @@ layout: default
 <hr id="listing"/>
 <ul>
   {% for repo in site.ghrepos %}
+    <h3>Repo: {{ repo | inspect }}</h3>
     {% include ghrepo-single.html %}
   {% endfor %}
 </ul>
