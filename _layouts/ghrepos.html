@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<hr id="listing"/>
+<ul>
+  {% for repo in site.ghrepos %}
+    {% include ghrepo-single.html %}
+  {% endfor %}
+</ul>
