@@ -1,7 +1,21 @@
 <li>
-  <h2>
+  <strong>
     <a id="{{ repo.name }}" href="{{ repo.html_url }}">{{ repo.full_name }}</a>
-  </h2>
-  
-  {{ repo.local.description }}
+  </strong>
+  Title: {{ repo.local.title }}
+  Description: {{ repo.local.description }}
+  {% if repo.local.tagline %}Tagline: {{ repo.local.tagline }}{% endif %}
+  {% if repo.fork %}fork: {{ repo.fork }}{% endif %}
+  {% if repo.updated_at %}Updated: {{ repo.updated_at }}{% endif %}
+  {% if repo.pushed_at %}Pushed: {{ repo.pushed_at }}{% endif %}
+  {% if repo.homepage %}Homepage: {{ repo.homepage }}{% endif %}
+  {% if repo.open_issues_count %}Issues: {{ repo.open_issues_count }}{% endif %}
+  {% if repo.default_branch %}Branch: {{ repo.default_branch }}{% endif %}
+  {% if repo.local.XYZ %}XYZ: {{ repo.XYZ }}{% endif %}
+
+  {% if repo.local.theme %}Theme: {{ repo.local.theme }}{% endif %}
+  {% if repo.local.remote_theme %}RTheme: {{ repo.local.remote_theme }}{% endif %}
+  {% if repo.local.logo %}Logo: {{ repo.local.logo }}{% endif %}
+  {% if repo.local.google_analytics %}GA: {{ repo.local.google_analytics }}{% endif %}
+
 </li>
