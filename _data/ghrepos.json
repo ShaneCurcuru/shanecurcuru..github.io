@@ -337,6 +337,7 @@
       "url": "https://shaneslides.com",
       "remote_theme": "benbalter/retlab",
       "permalink": "/:year/:month/:title/",
+      "google_analytics": "G-WW06SZZD5W",
       "logo": "/assets/img/headshot.jpg"
     }
   },
@@ -456,7 +457,8 @@
       "title": "The Apache Way",
       "description": "Shane's explanation of the Apache Way.",
       "url": "https://theapacheway.com",
-      "permalink": "/:categories/:title/"
+      "permalink": "/:categories/:title/",
+      "google_analytics": "G-8Y9L1VXCW0"
     }
   },
   {
@@ -800,7 +802,7 @@
       "description": "Overview of FOSS Foundation funding topics.",
       "theme": "jekyll-theme-minimal",
       "logo": "/assets/img/lifesaver.png",
-      "google_analytics": null
+      "google_analytics": "G-KJ4VYK5B84"
     }
   },
   {
@@ -913,7 +915,7 @@
       "description": "Overview of FOSS/Open Source Sustainability and Pay The Maintainers movements.",
       "theme": "jekyll-theme-minimal",
       "logo": "/assets/img/lifesaver.png",
-      "google_analytics": null
+      "google_analytics": "G-TB6JSQWZ3Y"
     }
   },
   {
