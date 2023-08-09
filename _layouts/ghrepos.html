@@ -5,8 +5,7 @@ layout: default
 {{ content }}
 
 <hr/>
-<h2 id="listing">Listing Of Repos</h2>
-<ul>
+<ul id="listing">
   {% for repo in site.data.ghrepos %}
     {% include ghrepo-single.html %}
   {% endfor %}

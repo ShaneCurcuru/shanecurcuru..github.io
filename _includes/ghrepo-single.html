@@ -1,7 +1,10 @@
 <li>
   <strong>
     <a id="{{ repo.name }}" href="{{ repo.html_url }}">{{ repo.full_name }}</a>
-  </strong><br/>
+  </strong>
+  {% if repo.local.theme %}{{ repo.local.theme }}{% elsif repo.local.remote_theme %}{{ repo.local.remote_theme }}{% else %}<del>Theme</del>{% endif %}
+  {% if repo.local.google_analytics %}{{ repo.local.google_analytics }}{% else %}<del>GA</del>{% endif %}
+  <br/>
   config Title: {{ repo.local.title }}<br/>
   config Descript: {{ repo.local.description }}<br/>
   GH  Description: {{ repo.description }}<br/>
@@ -13,8 +16,5 @@
   {% if repo.homepage %}Homepage: {{ repo.homepage }}{% else %}<del>Homepage</del>{% endif %}
   {% if repo.open_issues_count %}Issues: {{ repo.open_issues_count }}{% endif %}
   {% if repo.default_branch %}Branch: {{ repo.default_branch }}{% endif %}
-  <br/>
-  {% if repo.local.theme %}{{ repo.local.theme }}{% elsif repo.local.remote_theme %}{{ repo.local.remote_theme }}{% else %}<del>Theme</del>{% endif %}
-  {% if repo.local.google_analytics %}{{ repo.local.google_analytics }}{% else %}<del>GA</del>{% endif %}
   {% if repo.local.logo %}{{ repo.local.logo }}{% endif %}
 </li>

@@ -2,18 +2,8 @@
 layout: ghrepos
 ---
 
-# Hey, here's useful stuff to do
+## Pick something useful to do
 
-## Home and Family
+*Family* | *Home* | *Pool* | *Bills* | *Office* | *Your Arlington*
 
-Family  Home  Pool  Bills
-
-## Your Arlington
-
-## Code
-
-[members](https://lists.apache.org/list?members@apache.org:lte=12M:) board
-
-[GitHub Repos](https://docs.github.com/en/rest/repos?apiVersion=2022-11-28)
-
-### End Of Content
+[members](https://lists.apache.org/list?members@apache.org:lte=12M:) | board | ASFP | [comdev](https://lists.apache.org/list.html?dev@community.apache.org:lte=12M:) | [CoC](https://communityovercode.com/) | [Sustainability](https://discourse.sustainoss.org/c/working-groups/governance/9)
