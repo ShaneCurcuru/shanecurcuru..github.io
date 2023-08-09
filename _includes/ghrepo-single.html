@@ -3,7 +3,7 @@
     <a id="{{ repo.name }}" href="{{ repo.html_url }}">{{ repo.full_name }}</a>
   </strong>
   {% if repo.local.theme %}{{ repo.local.theme }}{% elsif repo.local.remote_theme %}{{ repo.local.remote_theme }}{% else %}<del>Theme</del>{% endif %}
-  {% if repo.local.google_analytics %}{{ repo.local.google_analytics }}{% else %}<del>GA</del>{% endif %}
+  {% if repo.local.google_analytics %}{{ repo.local.google_analytics }}{% elsif repo.local.analytics.google.tracking_id %}{{ repo.local.analytics.google.tracking_id }}{% else %}<del>GA</del>{% endif %}
   <br/>
   config Title: {{ repo.local.title }}<br/>
   config Descript: {{ repo.local.description }}<br/>
